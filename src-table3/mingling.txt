@@ -1,0 +1,5 @@
+
+##train
+python /amax/home/chenxiaotong/workspace/chy/ICLR2024-FROND-main/src/run_GNN_frac_all.py --dataset Cora --cuda 4 \
+--block att_frac --function transformer --time 40 --step_size 1 --hidden_dim 64 --lr 0.01 --input_dropout 0.4 --dropout 0.4 \
+--runtime 1 --seed 123 --epoch 100 --decay 0.01 --method predictor
